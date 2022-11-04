@@ -1,10 +1,10 @@
-package edu.miu.lab1.controller;
+package edu.miu.lab2.controller;
 
 
-import edu.miu.lab1.entity.dto.PostDto;
-import edu.miu.lab1.entity.dto.UserDto;
-import edu.miu.lab1.service.PostService;
-import edu.miu.lab1.service.UserService;
+import edu.miu.lab2.entity.dto.PostDto;
+import edu.miu.lab2.entity.dto.UserDto;
+import edu.miu.lab2.service.PostService;
+import edu.miu.lab2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

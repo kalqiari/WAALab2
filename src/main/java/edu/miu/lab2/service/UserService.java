@@ -1,8 +1,6 @@
-package edu.miu.lab1.service;
+package edu.miu.lab2.service;
 
-import edu.miu.lab1.entity.dto.PostDto;
-import edu.miu.lab1.entity.dto.UserDto;
-import org.springframework.stereotype.Service;
+import edu.miu.lab2.entity.dto.UserDto;
 
 import java.util.List;
 

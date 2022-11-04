@@ -1,8 +1,8 @@
-package edu.miu.lab1.service;
+package edu.miu.lab2.service;
 
-import edu.miu.lab1.entity.Post;
-import edu.miu.lab1.entity.dto.PostDto;
-import edu.miu.lab1.repo.PostRepo;
+import edu.miu.lab2.entity.Post;
+import edu.miu.lab2.entity.dto.PostDto;
+import edu.miu.lab2.repo.PostRepo;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

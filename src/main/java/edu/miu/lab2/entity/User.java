@@ -1,6 +1,5 @@
-package edu.miu.lab1.entity;
+package edu.miu.lab2.entity;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -17,7 +16,6 @@ public class User {
 
     @OneToMany
     @JoinColumn(name = "user_id")
-    @JsonManagedReference
     List<Post> posts;
 
 }

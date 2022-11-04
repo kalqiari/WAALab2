@@ -1,4 +1,4 @@
-package edu.miu.lab1.entity.dto;
+package edu.miu.lab2.entity.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

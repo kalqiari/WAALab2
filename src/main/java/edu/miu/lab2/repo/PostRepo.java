@@ -1,10 +1,9 @@
-package edu.miu.lab1.repo;
+package edu.miu.lab2.repo;
 
-import edu.miu.lab1.entity.Post;
+import edu.miu.lab2.entity.Post;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Collection;
 import java.util.List;
 
 @Repository

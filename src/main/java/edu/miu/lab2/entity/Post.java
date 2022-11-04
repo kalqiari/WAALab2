@@ -1,11 +1,10 @@
-package edu.miu.lab1.entity;
+package edu.miu.lab2.entity;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
+
 @Entity
 @Data
 @Table(name="posts")
@@ -18,5 +17,7 @@ public class Post {
      String author;
      @ManyToOne
      User user;
+     @OneToMany
+     List<Comment> comments;
 }
 
